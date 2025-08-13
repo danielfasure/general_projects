@@ -23,11 +23,9 @@ void included_new_book(book newbook){
 void remove_new_book(book newbook){
     if (full_book_space>0){
         for (int i = 0; i>Books.length+1;i++){
-            if (Books[i].Title == newbook.Title && Books[i?]){
-
+            if (Books[i].Title == newbook.Title && Books[i].Author == newbook.Author){// will reset the space that this book took.
                 Books[i].Title = "unknown";
                 Books[i].Author = "unknown";
-
             }
         }
     }
