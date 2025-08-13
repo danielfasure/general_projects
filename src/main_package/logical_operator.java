@@ -1,3 +1,5 @@
+package main_package;
+
 public class logical_operator {
     public static void main(String[] args) {
        int x = 6;

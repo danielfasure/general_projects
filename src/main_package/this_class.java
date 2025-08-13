@@ -1,3 +1,5 @@
+package main_package;
+
 class person {
 
     private String name;

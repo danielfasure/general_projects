@@ -1,3 +1,5 @@
+package main_package;
+
 public class showing_inherit {
     public static void main(String[] args) {
        Ford classic_vec = new Ford();

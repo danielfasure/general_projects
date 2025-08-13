@@ -1,5 +1,6 @@
+package main_package;
 
- class Pen
+class Pen
  {
     private String color = "red";
     private int size = 11;

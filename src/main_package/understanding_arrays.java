@@ -1,4 +1,6 @@
- class student{
+package main_package;
+
+class student{
     String name;
     int roll;
 
@@ -78,8 +80,8 @@ int three_d_array [][][]= new int[3][4][5]  ;
         student[1] = s2;
         student[2] = s3;
 
-     /*   for (int i = 0; i < student.length; i++) {
-            System.out.println("Name: " + student[i].name + " Roll: " + student[i].roll+ " welcome to the school");
+     /*   for (int i = 0; i < main_package.student.length; i++) {
+            System.out.println("Name: " + main_package.student[i].name + " Roll: " + main_package.student[i].roll+ " welcome to the school");
 
         }*/
         for (student studentinfo : student) {
