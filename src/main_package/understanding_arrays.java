@@ -22,10 +22,11 @@ public class understanding_arrays {
 
         }
          // multi demisonal array
-       int  num_mult_array [][] = new int[3][4]; //3 is rows and 4 is columns
-*/
+       int [][] num_mult_array  = new int[3][4]; //3 is rows and 4 is columns
+
+        */
         /*
-        int  num_mult_array [][] = new int[3][4]; //3 is rows and 4 is columns
+        int [][] num_mult_array  = new int[3][4]; //3 is rows and 4 is columns
         for(int i=0; i<num_mult_array.length; i++){  // returing all the values of the array
             for(int j=0; j<num_mult_array[i].length; j++){ //nested loop will retrive all the value in row
               num_mult_array[i][j] = (int)(Math.random()*100);

@@ -1,4 +1,4 @@
 package main_package.Object_class;
 
-public class Mammals {
+public class Mammals extends Animal{
 }
