@@ -1,6 +1,6 @@
 package main_package;
 
-import main_package.Object_class.Human;
+import main_package.Understanding_objects.Human;
 
 public class understanding_loops {
 

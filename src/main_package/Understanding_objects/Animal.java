@@ -1,4 +1,4 @@
-package main_package.Object_class;
+package main_package.Understanding_objects;
 
 public class Animal {
     String Name;
